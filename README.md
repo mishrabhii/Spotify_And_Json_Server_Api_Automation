@@ -1,1 +1,2 @@
 # Spotify_And_Json_Server_Api_Automation
+This repo contains Spotify and json server APIs. in Spotify - list all of a user's playlists, list all of the tracks for a given playlist, and fetch the audio features for selected tracks in that playlist. It also allows you to search a track and list out the audio features specifically for that track. Json web services - you will get all the post and comments and you will get all comments for specific post and also about the user.
