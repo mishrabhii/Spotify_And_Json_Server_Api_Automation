@@ -1,20 +1,18 @@
 //********************************************************
-//Author_Name : Sheetal_Chaudhari
-//Project     : Spotify_Api_Automation
+//Author_Name : Abhishek_Mishra
+//Project     : Spotify_Api_Automation_With_RestAssured
 //Date        : 29/01/2023
 //********************************************************
 
 package com.bridgelabz.qa.api_automation;
 
 import java.util.concurrent.TimeUnit;
-
 import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.matcher.ResponseAwareMatcher;
 import io.restassured.response.Response;
 
 public class ApiAutomationTest {
@@ -28,7 +26,7 @@ public class ApiAutomationTest {
 	@BeforeTest 
 
 	public void getToken() {
-		token = "Bearer BQBSl27rJV5FED2jcb_fF3kcTVHaSQV61dKnYB_SCMLY8Ud9OGvA7bpLH5UMocdwcvpidsPSnKG2YPrkzU4A60tF4EWSJfY5C6O8OMgUEv5JwMoBajaRGf7V5WEeuhSTmDAItc1uYvDPWj7Pgfi-6B2Z-VdJIP32hKXsl9zkKPeiO9JopEc16Pd7DXYQkNRS_3M1Sq2Z1SwK_6TWPMBfr2rCVmS9BEnmIYLYH6xlxLx6PEwwPaPtvWzwyMMix9pmXXo";
+		token = "Bearer BQCtTVaqC7uXi0xt8ebUsZ8ZmU6tjAWTJmE49AcsdPJHX4fZMabYpGRho9CnfSu6dHpMwU4wBbQBEVKIuLZJcKYEZayaJijslFxd6iSFL4wsJUivcTvOfcRleLCbuXsOL0Ztlix9w4ydqTLD1SVZQQsc3eD7SUIH5W0xSQeZloFKBOmbjVJsS-rmXtlTIGU9oP1r0bjFCI-1_CHZLbFY29E5bwga1R1Tx7_8deUYhPseC89oKTqxD7V1aXOYCJId36I";
 	}
 
 

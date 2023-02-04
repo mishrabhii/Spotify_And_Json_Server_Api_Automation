@@ -1,5 +1,5 @@
 //********************************************************
-//Author_Name : Sheetal_Chaudhari
+//Author_Name : Abhishek_Mishra
 //Project     : Json_Server_Api_Automation
 //Date        : 01/01/2023
 //********************************************************
@@ -7,11 +7,9 @@
 package com.bridgelabz.qa.api_automation;
 
 import java.util.concurrent.TimeUnit;
-
 import org.hamcrest.Matchers;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -78,9 +76,7 @@ public class Json_Server_ApiAutomationTest {
 		response.then().assertThat().statusCode(200);
 		response.then().assertThat().log().all();
 		System.out.println("Response Time of delete_post in ms = "+ response.timeIn(TimeUnit.MICROSECONDS));
-
-
-	}
+}
 
 	@Test(priority = 8)
 
@@ -110,7 +106,6 @@ public class Json_Server_ApiAutomationTest {
 		response.then().assertThat().statusCode(200);
 		response.then().assertThat().log().all();
 		System.out.println("Response Time of get_comments in ms = "+ response.timeIn(TimeUnit.MICROSECONDS));
-
 	}
 
 	@Test(priority = 9)
@@ -129,8 +124,6 @@ public class Json_Server_ApiAutomationTest {
 		response.then().assertThat().statusCode(200);
 		response.then().assertThat().log().all();
 		System.out.println("Response Time of update_comment in ms = "+ response.timeIn(TimeUnit.MICROSECONDS));
-
-
 	}
 
 	@Test(priority = 11)
@@ -143,8 +136,6 @@ public class Json_Server_ApiAutomationTest {
 		response.then().assertThat().statusCode(200);
 		response.then().assertThat().log().all();
 		System.out.println("Response Time of delete_comment in ms = "+ response.timeIn(TimeUnit.MICROSECONDS));
-
-
 	}
 
 	@Test(priority = 1)
@@ -161,7 +152,6 @@ public class Json_Server_ApiAutomationTest {
 		response.then().assertThat().statusCode(201);
 		response.then().assertThat().log().all();
 		System.out.println("Response Time of create_profile in ms = "+ response.timeIn(TimeUnit.MICROSECONDS));
-
 	}
 
 	@Test(priority = 3)
